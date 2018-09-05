@@ -1,0 +1,18 @@
+Turn based combat.
+
+9 enemy slots, 3 summon slots, 3 hero slots.
+EEE SH
+EEE SH
+EEE SH
+
+When a new summon is summoned, previous summon is destroyed.
+Battle is won if every enemy is either destroyed or completely disabled.
+Battle is lost if every hero dies.
+
+Battle develops in turns.
+When character is on turn they can cast 1 ability if the selected ability still has PP left.
+Ability effect.
+Next character.
+
+When turn starts characters are ordered by their speed (descending).
+By switching speeds characters can make multiple moves in a single turn or not get a move at all.
