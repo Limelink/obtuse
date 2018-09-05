@@ -93,18 +93,18 @@ ________________________________________________________________________________
 	
 (3.03) [Stoned]
 	Status
-	Target is unable to take action.
+	Unable to take action.
 	
 (3.04) [Feared]
 	Status
 	Effects vary:
 		Has no effect.
 		Acts randomly.
-		Upon casting ability backfires.	
+		Upon casting ability it backfires.	
 
 (3.05) [Burning ground]
 	Status
-	Deals damage to the target standing on it at the end of the turn.
+	Deals damage to the character standing on it at the end of the turn.
 	
 
 	
