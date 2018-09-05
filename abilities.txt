@@ -1,5 +1,5 @@
-Abilities are gathered as rewards for either exploring or battling. They are then equiped to characters. Not all abilities
-can be equiped to all characters.
+# Abilities are gathered as rewards for either exploring or battling. They are then equiped to characters. Not all abilities
+# can be equiped to all characters.
 
 Duel:
 	Ability, Target: 1 enemy
