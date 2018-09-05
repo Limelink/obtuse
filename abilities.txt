@@ -11,7 +11,7 @@ ________________________________________________________________________________
 	
 (1.02) [Echo]
 	<1 character>
-	Next ability target attempts is used twice (if it can be).
+	Applies Echo to target/
 	
 (1.03) [Guard]
 	<1 character>
