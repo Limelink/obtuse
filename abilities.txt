@@ -102,6 +102,7 @@ ________________________________________________________________________________
 (2.03) [Mirror wall]
 	Summon;
 	Summons a mirror wall. The enemies will not attack the character hidden behind it, but the hidden creature cannot 		perform offensive action.
+	//The perfect reflection convinces even the sharpest of minds.//
 	
 _________________________________________________________________________________________________________________________
 {3 STATUS}
@@ -128,6 +129,10 @@ ________________________________________________________________________________
 	Status
 	Deals damage to the target standing on it at the end of the turn.
 	
+(3.06) [Opressed]
+	Status
+	Character cannot perform offensive actions until the end of the turn.
+	//The broken spirit needs a moment to recover.//
 
 	
 
