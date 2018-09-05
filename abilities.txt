@@ -118,10 +118,13 @@ ________________________________________________________________________________
 	Target is unable to take action.
 	
 (3.04) [Feared]
-	33%	Has no effect.
-	33%	Acts randomly.
-	33%	Upon casting ability backfires.	
+	Has no effect.
+	Acts randomly.
+	Upon casting ability backfires.	
 
 (3.05) [Burning ground]
 
 	Deals damage to the target standing on it at the end of the turn.
+	
+(1.02) [Echo]
+	Next ability target attempts is used twice (if it can be).
