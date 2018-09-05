@@ -64,6 +64,10 @@ ________________________________________________________________________________
 (1.15) [Delayed hit]
 	Ability; <1 slot>
 	Marks the slot. When the caster is on turn again damage is dealt to the target standing on that slot.
+
+(1.16) [Stone's touch]
+	Ability: 1 character
+	Targeted character cannot use abilities or move. Instead, he gets an immense damage reduction bonus and recieves increased healing for a period of time.
 	
 (1.16) [Dimensional fissure]
 	Ability; <1 empty slot>
@@ -126,6 +130,7 @@ ________________________________________________________________________________
 
 (3.05) [Burning ground]
 	Status
+
 	Deals damage to the target standing on it at the end of the turn.
 	
 
