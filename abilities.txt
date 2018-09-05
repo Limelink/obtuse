@@ -67,8 +67,7 @@ ________________________________________________________________________________
 
 (1.16) [Stone's touch]
 	<1 character>
-	Targeted character cannot use abilities or move. Instead, he gets an immense damage reduction bonus and recieves increased 
-	healing for a period of time.
+	Stones target.
 	
 (1.17) [Dimensional fissure]
 	<1 empty slot>
@@ -112,10 +111,11 @@ ________________________________________________________________________________
 	Upon using any ability it is negated and caster takes some fire damage.
 	
 (3.02) [Stuned]
-	Speed is 0. (Characters with speed less or equal to 0 do not take action)
+	Target is unable to take action.
 	
 (3.03) [Stoned]
-	Target is unable to take action.
+	Targeted character cannot use abilities or move. Instead, they get an immense damage reduction bonus and recieves increased 
+	healing for a period of time.
 	
 (3.04) [Feared]
 	Has no effect.
