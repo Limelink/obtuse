@@ -19,8 +19,12 @@ Burned:
 	Upon using any ability it is negated and caster takes some fire damage.
 	
 Echo:
-	Ability, Target: 1 character
-	Next ability target attempts is used twice (if it can be).
+	Ability, Target: 1 target
+	Applies Echo to the target.
+
+Echo:
+	Status
+	Next ability affected attempts is used twice (if it can be).
 	
 Guard:
 	Ability, Target: 1 character
