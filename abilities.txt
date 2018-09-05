@@ -1,103 +1,111 @@
 Abilities are gathered as rewards for either exploring or battling. They are then equiped to characters. Not all abilities
 can be equiped to all characters.
+_________________________________________________________________________________________________________________________
+{1 ABILITY}
 
-Duel:
+(1.01) [Duel]
 	Ability, Target: 1 enemy
 	Teleports user and the target to the seperate arena with only one slot for each (no summons).
 	The arena is in no way influenced by the remaining battle procceding normaly.
 	Only way to leave arena is for either target or caster to die.
 	
-Flaming sword:
+(1.02) [Echo]
+	Ability, Target: 1 character
+	Next ability target attempts is used twice (if it can be).
+	
+(1.03) [Guard]
+	Ability, Target: 1 character
+	Part of damage target would take is instead inflicted upon caster.
+	
+(1.04) [Shield bash]
+	Ability, Target: 1 enemy
+	Stuns the target.
+	
+(1.05) [Petrify]
+	Ability, Target: 1 character
+	Turns target to stone.
+	
+(1.06) [Swap]
+	Ability, Target: 1 hero slot
+	Caster moves to the targeted spot and any character standing there moves to the casters original spot.
+	
+(1.07) [Spook]
+	Ability, Target: 1 enemy
+	Fears the enemy.
+	
+(1.08) [Execute]
+	Ability, Target: 1 character with low HP
+	Kills the target and fears adjacent characters.
+	
+(1.09) [Steal]
+	Ability, Target: 1 character
+	Steals last ability used.
+	
+(1.10) [Decoy]
+	Ability, Target: 1 empty slot
+	When destroyed deals damage to adjacent enemies.
+	
+(1.11) [Reverse]
+	Ability
+	Changes speed so that turn order is reversed.
+	
+(1.12) [Speed switch]
+	Ability, Target: 1 character
+	Switch speed between caster and target.
+	
+(1.13) [Pierce arrow]
+	Ability, Target: 1 enemy row
+	Deals damage to the whole row.
+	
+(1.14) [Burning ground]
+	Ability, Target: 1 slot
+	Creates burning ground on tageted slot.
+	
+(1.15) [Delayed hit]
+	Ability: 1 slot
+	Marks the slot. When the caster is on turn again damage is dealt to the target standing on that slot.
+	
+_________________________________________________________________________________________________________________________
+{2 SUMMON}
+
+(2.01) [Flaming sword]
 	Summon
 	Summons Flaming sword. While the sword is summoned caster cannot attack. Sword has three abilities:
 		Slash: Basic attack on a single target.
 		Explode: Area of effect attack with chance to burn.
-		Burn: Burns target without fail.
-		
-Burned:
-	Status
-	Upon using any ability it is negated and affected takes some fire damage.
-	
-Echo:
-	Ability, Target: 1 target
-	Applies Echo to the target.
+		Burn: Burns target without fail.	
 
-Echo:
-	Status
-	Next ability affected attempts is used twice (if it can be).
-	
-Guard:
-	Ability, Target: 1 character
-	Part of damage target would take is instead inflicted upon caster.
-	
-Shield:
+(2.02) [Shield]
 	Summon
 	Summons Shield. While summoned caster cannot defend. Any demage the character behind Shield would take
 	is instead inflicted upon Shield. Shield does not have any abilities.
 	
-Shield bash:
-	Ability, Target: 1 enemy
-	Stuns the target.
-	
-Stun:
+_________________________________________________________________________________________________________________________
+{3 STATUS}
+
+(3.01) [Burned]
 	Status
-	Affected's speed is 0. (Characters with speed less or equal to 0 do not take action)
+	Upon using any ability it is negated and caster takes some fire damage.
 	
-Petrify:
-	Ability, Target: 1 character
-	Turns target to stone.
-	
-Stone:
+(3.02) [Stun]
 	Status
-	Affected is unable to take action.
+	Speed is 0. (Characters with speed less or equal to 0 do not take action)
 	
-Swap:
-	Ability, Target: 1 hero slot
-	Caster moves to the targeted spot and any character standing there moves to the casters original spot.
+(3.03) [Stone]
+	Status
+	Target is unable to take action.
 	
-Spook:
-	Ability, Target: 1 enemy
-	Fears the enemy.
-	
-Fear:
+(3.04) [Fear]
 	Status
 	Effects vary:
 		Has no effect.
-		Affected acts randomly.
-		Upon casting ability backfires.
-		
-Execute:
-	Ability, Target: 1 character with low HP
-	Kills the target and fears adjacent characters.
-	
-Steal:
-	Ability, Target: 1 character
-	Steals last ability used.
-	
-Decoy:
-	Ability, Target: 1 empty slot
-	When destroyed deals damage to adjacent enemies.
-	
-Reverse:
-	Ability
-	Changes speed so that turn order is reversed.
-	
-Speed switch:
-	Ability, Target: 1 character
-	Switch speed between caster and target.
-	
-Pierce arrow:
-	Ability, Target: 1 enemy row
-	Deals damage to the whole row.
-	
-Burning ground:
-	Ability, Target: 1 slot
-	Creates burning ground on tageted slot.
-	
-Burning ground:
+		Acts randomly.
+		Upon casting ability backfires.	
+
+(3.05) [Burning ground]
 	Status
 	Deals damage to the target standing on it at the end of the turn.
 	
-Delayed hit:
-	Ability: 1 slot
-	Marks the slot. When the caster is on turn again damage is dealt to the target standing on that slot.
+
+	
+
