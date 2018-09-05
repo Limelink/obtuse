@@ -4,76 +4,95 @@ ________________________________________________________________________________
 {1 ABILITY}
 
 (1.01) [Duel]
-	Ability, Target: 1 enemy
+	Ability; <1 enemy>
 	Teleports user and the target to the seperate arena with only one slot for each (no summons).
 	The arena is in no way influenced by the remaining battle procceding normaly.
 	Only way to leave arena is for either target or caster to die.
 	
 (1.02) [Echo]
-	Ability, Target: 1 character
+	Ability; <1 character>
 	Next ability target attempts is used twice (if it can be).
 	
 (1.03) [Guard]
-	Ability, Target: 1 character
+	Ability; <1 character>
 	Part of damage target would take is instead inflicted upon caster.
 	
 (1.04) [Shield bash]
-	Ability, Target: 1 enemy
+	Ability; <1 enemy>
 	Stuns the target.
 	
 (1.05) [Petrify]
-	Ability, Target: 1 character
+	Ability; <1 character>
 	Turns target to stone.
 	
 (1.06) [Swap]
-	Ability, Target: 1 hero slot
+	Ability; <1 hero slot>
 	Caster moves to the targeted spot and any character standing there moves to the casters original spot.
 	
 (1.07) [Spook]
-	Ability, Target: 1 enemy
+	Ability; <1 enemy>
 	Fears the enemy.
 	
 (1.08) [Execute]
-	Ability, Target: 1 character with low HP
+	Ability; <1 character with low HP>
 	Kills the target and fears adjacent characters.
 	
 (1.09) [Steal]
-	Ability, Target: 1 character
+	Ability; <1 character>
 	Steals last ability used.
 	
 (1.10) [Decoy]
-	Ability, Target: 1 empty slot
+	Ability; <1 empty slot>
 	When destroyed deals damage to adjacent enemies.
 	
 (1.11) [Reverse]
-	Ability
+	Ability; <none>
 	Changes speed so that turn order is reversed.
 	
 (1.12) [Speed switch]
-	Ability, Target: 1 character
+	Ability; <1 character>
 	Switch speed between caster and target.
 	
 (1.13) [Pierce arrow]
-	Ability, Target: 1 enemy row
+	Ability; <1 enemy row>
 	Deals damage to the whole row.
 	
 (1.14) [Burning ground]
-	Ability, Target: 1 slot
+	Ability; <1 slot>
 	Creates burning ground on tageted slot.
 	
 (1.15) [Delayed hit]
-	Ability: 1 slot
+	Ability; <1 slot>
 	Marks the slot. When the caster is on turn again damage is dealt to the target standing on that slot.
 
 (1.16) [Stone's touch]
 	Ability: 1 character
 	Targeted character cannot use abilities or move. Instead, he gets an immense damage reduction bonus and recieves increased healing for a period of time.
 	
+(1.16) [Dimensional fissure]
+	Ability; <1 empty slot>
+	70%	DMG 		<2RNG adjacent slots>
+	25%	DMG 		<ALL adjacent slots>
+	10%	LETHAL STRIKE 	<1RNG adjacent slot>
+	//Despite the countless efforts of the most remarkable sorcerers, the dimensional plane remains a mystery.//
+	
+(1.17) [Thunderstruck]
+	Ability; <1 enemy>
+		DMG, STUN
+	//None would argue that the melodic discharge is beyond legendary.//
+	
+(1.18) [Limb bazooka]
+	Ability; <self>
+		DMG SELF, DMG	<ROW>	
+	The character damages himself and lunges the body part so that it pierces the row.
+	//Desperate measures, call for elegant manouvers.//
+	
+	
 _________________________________________________________________________________________________________________________
 {2 SUMMON}
 
 (2.01) [Flaming sword]
-	Summon
+	Summon; 
 	Summons Flaming sword. While the sword is summoned caster cannot attack. Sword has three abilities:
 		Slash: Basic attack on a single target.
 		Explode: Area of effect attack with chance to burn.
@@ -83,6 +102,10 @@ ________________________________________________________________________________
 	Summon
 	Summons Shield. While summoned caster cannot defend. Any demage the character behind Shield would take
 	is instead inflicted upon Shield. Shield does not have any abilities.
+	
+(2.03) [Mirror wall]
+	Summon;
+	Summons a mirror wall. The enemies will not attack the character hidden behind it, but the hidden creature cannot 		perform offensive action.
 	
 _________________________________________________________________________________________________________________________
 {3 STATUS}
@@ -97,20 +120,18 @@ ________________________________________________________________________________
 	
 (3.03) [Stoned]
 	Status
-	Unable to take action.
+	Target is unable to take action.
 	
 (3.04) [Feared]
 	Status
-	Effects vary:
-		Has no effect.
-		Acts randomly.
-		Upon casting ability it backfires.	
+	33%	Has no effect.
+	33%	Acts randomly.
+	33%	Upon casting ability backfires.	
 
 (3.05) [Burning ground]
 	Status
-	Deals damage to the character standing on it at the end of the turn.
 
-
+	Deals damage to the target standing on it at the end of the turn.
 	
 
 	
