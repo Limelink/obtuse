@@ -8,22 +8,27 @@ ________________________________________________________________________________
 	Teleports user and the target to the seperate arena with only one slot for each (no summons).
 	The arena is in no way influenced by the remaining battle procceding normaly.
 	Only way to leave arena is for either target or caster to die.
+	//Some wars can be decided by the strongest leaders, others on top of rust.//
 	
 (1.02) [Echo]
 	<1 character>
-	Applies Echo to target/
+	Next ability target attempts is used twice (if it can be).
+	//What was heard in the distance, will happen once more.//
 	
 (1.03) [Guard]
 	<1 character>
 	Part of damage target would take is instead inflicted upon caster.
+	//An unbreakable stance fortifies the body and mind.//
 	
 (1.04) [Shield bash]
 	<1 enemy>
 	Stuns the target.
+	//Defense is a great offense.//
 	
 (1.05) [Petrify]
 	<1 character>
 	Turns target to stone.
+	//A sculptor's dream.//
 	
 (1.06) [Swap]
 	<1 hero slot>
@@ -32,14 +37,17 @@ ________________________________________________________________________________
 (1.07) [Spook]
 	<1 enemy>
 	Fears the enemy.
+	//Trumpet softly tempts you to the shadows.//
 	
 (1.08) [Execute]
 	<1 character with low HP>
 	Kills the target and fears adjacent characters.
+	//Grand Finale.//
 	
 (1.09) [Steal]
 	<1 character>
 	Steals last ability used.
+	//The art of a copycat makes you the fastest learner.//
 	
 (1.10) [Decoy]
 	<1 empty slot>
@@ -56,18 +64,22 @@ ________________________________________________________________________________
 (1.13) [Pierce arrow]
 	<1 enemy row>
 	Deals damage to the whole row.
+	//Flexing the biceps finally shows as you penetrate 3 bodies at once :^).//
 	
 (1.14) [Burning ground]
 	<1 slot>
 	Creates burning ground on tageted slot.
+	//Some like it spicy hot.//
 	
 (1.15) [Delayed hit]
 	<1 slot>
 	Marks the slot. When the caster is on turn again damage is dealt to the target standing on that slot.
+	//Waiting is a virtue only some can appreciate.//
 
 (1.16) [Stone's touch]
 	<1 character>
-	Stones target.
+	Targeted character cannot use abilities or move. Instead, he gets an immense damage reduction bonus and recieves 	increased healing for a period of time.
+	//The touch reminds you of the local priest. You're in God's hand now.//
 	
 (1.17) [Dimensional fissure]
 	<1 empty slot>
@@ -102,8 +114,7 @@ ________________________________________________________________________________
 	is instead inflicted upon Shield. Shield does not have any abilities.
 	
 (2.03) [Mirror wall]
-	Summons a mirror wall. The enemies cannot target the character behind it, but the hidden character cannot 
-	target enemies.
+	Summons a mirror wall. The enemies will not attack the character hidden behind it, but the hidden creature cannot 		perform offensive action.
 	
 _________________________________________________________________________________________________________________________
 {3 STATUS}
@@ -112,11 +123,10 @@ ________________________________________________________________________________
 	Upon using any ability it is negated and caster takes some fire damage.
 	
 (3.02) [Stuned]
-	Target is unable to take action.
+	Speed is 0. (Characters with speed less or equal to 0 do not take action)
 	
 (3.03) [Stoned]
-	Targeted character cannot use abilities or move. Instead, they get an immense damage reduction bonus and recieves increased 
-	healing for a period of time.
+	Target is unable to take action.
 	
 (3.04) [Feared]
 	Has no effect.
@@ -127,5 +137,5 @@ ________________________________________________________________________________
 
 	Deals damage to the target standing on it at the end of the turn.
 	
-(3.06) [Echo]
+(1.02) [Echo]
 	Next ability target attempts is used twice (if it can be).
