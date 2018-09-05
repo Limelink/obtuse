@@ -69,19 +69,19 @@ ________________________________________________________________________________
 	Ability: 1 character
 	Targeted character cannot use abilities or move. Instead, he gets an immense damage reduction bonus and recieves increased healing for a period of time.
 	
-(1.16) [Dimensional fissure]
+(1.17) [Dimensional fissure]
 	Ability; <1 empty slot>
 	70%	DMG 		<2RNG adjacent slots>
 	25%	DMG 		<ALL adjacent slots>
 	10%	LETHAL STRIKE 	<1RNG adjacent slot>
 	//Despite the countless efforts of the most remarkable sorcerers, the dimensional plane remains a mystery.//
 	
-(1.17) [Thunderstruck]
+(1.18) [Thunderstruck]
 	Ability; <1 enemy>
 		DMG, STUN
 	//None would argue that the melodic discharge is beyond legendary.//
 	
-(1.18) [Limb bazooka]
+(1.19) [Limb bazooka]
 	Ability; <self>
 		DMG SELF, DMG	<ROW>	
 	The character damages himself and lunges the body part so that it pierces the row.
@@ -130,9 +130,4 @@ ________________________________________________________________________________
 
 (3.05) [Burning ground]
 	Status
-
 	Deals damage to the target standing on it at the end of the turn.
-	
-
-	
-
