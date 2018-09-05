@@ -87,15 +87,15 @@ ________________________________________________________________________________
 	Status
 	Upon using any ability it is negated and caster takes some fire damage.
 	
-(3.02) [Stun]
+(3.02) [Stuned]
 	Status
 	Speed is 0. (Characters with speed less or equal to 0 do not take action)
 	
-(3.03) [Stone]
+(3.03) [Stoned]
 	Status
 	Target is unable to take action.
 	
-(3.04) [Fear]
+(3.04) [Feared]
 	Status
 	Effects vary:
 		Has no effect.
