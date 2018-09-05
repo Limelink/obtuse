@@ -126,5 +126,5 @@ ________________________________________________________________________________
 
 	Deals damage to the target standing on it at the end of the turn.
 	
-(1.02) [Echo]
+(3.06) [Echo]
 	Next ability target attempts is used twice (if it can be).
